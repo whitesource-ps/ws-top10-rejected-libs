@@ -1,7 +1,7 @@
 ---
 name: Feature Request
 about: Suggest an idea for this project
-title: "[FR] [ws-tool-name] Feature Short Description"
+title: "[FR] [ws-top10-rejected-libs] Feature Short Description"
 labels: feature request
 assignees: ''
 

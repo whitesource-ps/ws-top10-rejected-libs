@@ -7,6 +7,7 @@
 # Excluded Local/User Directories
 _archive/
 _misc/
+files/
 local/
 log/
 target/
@@ -16,6 +17,8 @@ target/
 *.png
 *.tar.gz
 *.url
+*.xlsx
+*.config
 
 # Excluded Files - Naming Convention
 local-env.*
