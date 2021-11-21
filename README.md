@@ -1,9 +1,9 @@
 [![Logo](https://whitesource-resources.s3.amazonaws.com/ws-sig-images/Whitesource_Logo_178x44.png)](https://www.whitesourcesoftware.com/)  
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
-[![CI](https://github.com/whitesource-ps/ws-tool-name/actions/workflows/ci.yml/badge.svg)](https://github.com/whitesource-ps/ws-top10-rejected-libs/actions/workflows/ci.yml)
+[![CI](https://github.com/whitesource-ps/ws-top10-rejected/actions/workflows/ci.yml/badge.svg)](https://github.com/whitesource-ps/ws-top10-rejected-libs/actions/workflows/ci.yml)
 [![Python 3.6](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Blue_Python_3.6%2B_Shield_Badge.svg/86px-Blue_Python_3.6%2B_Shield_Badge.svg.png)](https://www.python.org/downloads/release/python-360/)
-[![GitHub release](https://img.shields.io/github/v/release/whitesource-ps/ws-sbom-spdx-report)](https://github.com/whitesource-ps/ws-top10-rejected-libs/releases/latest)  
-[![PyPI](https://img.shields.io/pypi/v/ws-tool-name?style=plastic)](https://pypi.org/project/ws-top10-rejected-libs/)
+[![GitHub release](https://img.shields.io/github/v/release/whitesource-ps/ws-top10-rejected-libs)](https://github.com/whitesource-ps/ws-top10-rejected-libs/releases/latest)  
+[![PyPI](https://img.shields.io/pypi/v/ws-top10-rejected?style=plastic)](https://pypi.org/project/ws-top10-rejected-libs/)
 # [WhiteSource Top 10 Rejected Libraries](https://github.com/whitesource-ps/ws-top10-rejected-libs)
 Generate a spreadsheet listing the 10 most common libraries in your WhiteSource inventory that were rejected by policies.
 
