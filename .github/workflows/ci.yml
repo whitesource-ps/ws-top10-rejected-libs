@@ -1,4 +1,4 @@
-name: WS Tool Name
+name: WhiteSource Top 10 Rejected Libraries
 on:
   push:
     branches:
@@ -9,10 +9,10 @@ jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     env:
-      TOOL_NAME: tool_name
+      TOOL_NAME: top10_rejected_libs
     strategy:
       matrix:
-        python-version: [3.7, 3.8, 3.9]
+        python-version: [3.6, 3.7, 3.8, 3.9]
     steps:
       - name: Set Environment Variables
         run: |

@@ -1,7 +1,7 @@
 import setuptools
 from ws_tool_name._version import __version__
 
-tool_name = 'tool_name'
+tool_name = 'ws_top10_rejected_libs'
 
 setuptools.setup(
     name=f"ws_{tool_name}",
@@ -10,13 +10,13 @@ setuptools.setup(
             f'{tool_name}=ws_{tool_name}.{tool_name}:main'
         ]},
     version=__version__,
-    author="WhiteSource Professional Services",
-    author_email="ps@whitesourcesoftware.com",
-    description="WS Tool Name",
+    author="Tidhar Meltzer",
+    author_email="tidhar.meltzer@whitesourcesoftware.com",
+    description="Get a list of the top-10 rejected libraries in your WhiteSource inventory",
     url='https://github.com/whitesource-ps/ws-tool-name',
     license='LICENSE.txt',
     packages=setuptools.find_packages(),
-    python_requires='>=3.7',
+    python_requires='>=3.6',
     install_requires=[line.strip() for line in open("requirements.txt").readlines()],
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
