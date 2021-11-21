@@ -32,6 +32,11 @@ prompt_date = True
 
 title = "Top 10 Rejected Libraries"
 cfg_file = "{}.config".format(__file__)
+agent_info = 'agentInfo'
+AGENT_NAME = 'top10-rejected-libs'
+AGENT_VERSION = '1.0.0'
+agent_info_details = {'agent': AGENT_NAME, 'agentVersion': AGENT_VERSION}
+
 # cfg var names
 SEC_WS = 'WhiteSource'
 SEC_ST = 'Settings'
@@ -290,6 +295,7 @@ try:
 
     # Get all Policy Violation Alerts
     payload_alerts = {
+        agent_info: agent_info_details,
         "requestType": "getOrganizationAlertsByType",
         "userKey": cfg_ws[USER_KEY],
         "orgToken": cfg_ws[ORG_TOKEN],
