@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-yellowgreen.svg)](https://opensource.org/licenses/Apache-2.0)
 [![CI](https://github.com/whitesource-ps/ws-top10-rejected-libs/actions/workflows/ci.yml/badge.svg)](https://github.com/whitesource-ps/ws-top10-rejected-libs/actions/workflows/ci.yml)
-[![Python 3.6](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Blue_Python_3.6%2B_Shield_Badge.svg/86px-Blue_Python_3.6%2B_Shield_Badge.svg.png)](https://www.python.org/downloads/release/python-360/)
+[![Python 3.8](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Blue_Python_3.8_Shield_Badge.svg/76px-Blue_Python_3.8_Shield_Badge.svg.png)](https://www.python.org/downloads/release/python-380/)
 [![GitHub release](https://img.shields.io/github/v/release/whitesource-ps/ws-top10-rejected-libs)](https://github.com/whitesource-ps/ws-top10-rejected-libs/releases/latest)  
 [![PyPI](https://img.shields.io/pypi/v/ws-top10-rejected?style=plastic)](https://pypi.org/project/ws-top10-rejected-libs/)  
 
@@ -14,7 +14,7 @@ Generate a spreadsheet listing the 10 most common libraries in your WhiteSource 
 - **Windows (PowerShell):**	10, 2012, 2016
 
 ## Prerequisites
-Python 3.6+
+Python 3.8+
 
 ## Installation
 1. Clone the **ws-top10-rejected-libs** repository to your environment:  
