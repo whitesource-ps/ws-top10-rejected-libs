@@ -1,5 +1,5 @@
-requests~=2.25.1
-rsa~=4.7.2
+requests~=2.31.0
+rsa~=4.9.0
 python-dateutil~=2.8.1
 tkcalendar~=1.6.1
-xlsxwriter~=1.4.3
+xlsxwriter~=3.1.9
